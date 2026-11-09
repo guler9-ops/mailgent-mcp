@@ -1,0 +1,38 @@
+{
+  "name": "mailgent-mcp",
+  "version": "1.0.0",
+  "description": "MCP-Server für Mailgent — E-Mail-Postfächer für KI-Agenten (EU-gehostet, DSGVO-konform). Gibt Agenten in Claude, Cursor, Codex & Co. echte Postfächer per API.",
+  "type": "module",
+  "bin": {
+    "mailgent-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email",
+    "ai-agents",
+    "mailgent",
+    "gdpr"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guler9-ops/mailgent-mcp.git"
+  },
+  "homepage": "https://mailgent.eu",
+  "bugs": {
+    "url": "https://github.com/guler9-ops/mailgent-mcp/issues"
+  },
+  "author": "Mailgent (mailgent.eu)"
+}
